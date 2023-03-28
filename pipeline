@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('gitcheckout') {
             steps {
-                git 'https://github.com/RAHAMSHAIK007/dockercompose.git'
+                git 'https://github.com/Bindu2124/dockercompose.git'
             }
         }
         stage('services')
